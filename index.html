@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Sketch Pad</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
+<body>
+    <h1 id="title">Etch a Sketch</h1>
+    <div class="controls">
+        <button id="reset">Reset</button>
+        <button id="black">Black</button>
+        <button id="rgb">RGB</button>
+        <div class="colours">
+            <input type="color" id="color">
+            <p>Custom</p>
+        </div>
+
+        <div class="sliderAndValue">
+            <input type="range" min="2" max="100" value="16" id="slider">
+            <p class="value">16</p>
+        </div>
+    </div>  
+    <div class="grid"></div>
+</body>
+</html>
+<script src="main.js"></script>
